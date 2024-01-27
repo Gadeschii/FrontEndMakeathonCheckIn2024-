@@ -13,6 +13,7 @@ import { IUser } from '../models/user'; // Importing IUser interface
 
 // LoginComponent class with OnInit
 export class LoginComponent implements OnInit {
+  welcomeText = 'Makeathon 2024';
   name: string = ''; // Property for name
   password: string  = ''; // Property for password
 
