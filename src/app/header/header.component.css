@@ -2,15 +2,15 @@
 nav {
     text-align: center;
 }
+
 body {
     background-color: #8cbc54;
 }
 .main-container {
+    height: 2000px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    padding: 20px;
     background-color: #f8f4f1;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -23,15 +23,11 @@ body {
     font-family: 'KG Life is Messy', sans-serif;
     font-size: 4em; /* Makes the title larger */
 }
-.titule {
-    font-family: 'KG Life is Messy', sans-serif;
-    font-size: 3em; /* Makes the title larger */
-    text-align: center; /* Centers the title */
-}
+
 .header-content {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .left-side {
@@ -53,21 +49,19 @@ body {
 }
 
 .GC-logo-size{
-    width: 50%;
+    width: 35%;
     height: auto;
     object-fit: cover;
-    
-  }
-  
-  .DE-logo-size{
-    width: 50%;
+}
+
+.DE-logo-size{
+    width: 35%;
     height: auto;
     object-fit: cover;
-  }
-  
-  .Makeathon-logo-size {
+}
+
+.Makeathon-logo-size {
     width: 40%;
     height: auto;
     object-fit: cover;
-
-  }
+}
